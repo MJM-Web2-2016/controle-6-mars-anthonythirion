@@ -1,9 +1,24 @@
 .visuel-listing{
   margin-bottom: 5px;
-  min-height: 400px;
+  min-height: 300px;
+  text-align: center;
  }
 
 .marge-top{
   width: 100%;
   height: 5vh;
+}
+
+.view{
+  width: 49%;
+  background-color: green;
+  height: 50px;
+  display: inline-block;
+}
+
+.like{
+  width: 49%;
+  background-color: blue;
+  height: 50px;
+  display: inline-block;
 }
