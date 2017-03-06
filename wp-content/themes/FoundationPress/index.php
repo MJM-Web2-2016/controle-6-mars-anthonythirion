@@ -1,5 +1,5 @@
 <?php
-/** 
+/**
  * The main template file
  *
  * This is the most generic template file in a WordPress theme
@@ -14,6 +14,58 @@
  */
 
 get_header(); ?>
+
+
+<div class="row">
+		<div class="gBox">
+			Image 1
+		</div>
+		<div class="gBox">
+			Image 2
+		</div>
+		<div class="gBox">
+			Image 3
+		</div>
+		<div class="gBox">
+			Image 4
+		</div>
+		<div class="gBox">
+			Image 5
+		</div>
+	</div>
+	<div class="gBox">
+		Image 6
+	</div>
+	<div class="gBox">
+		Image 7
+	</div>
+	<div class="gBox">
+		Image 8
+	</div>
+	<div class="gBox">
+		Image 9
+	</div>
+	<div class="gBox">
+		Image 10
+	</div>
+	<div class="gBox">
+		Image 11
+	</div>
+	<div class="gBox">
+		Image 12
+	</div>
+	<div class="gBox">
+		Image 13
+	</div>
+	<div class="gBox">
+		Image 14
+	</div>
+	<div class="gBox">
+		Image 15
+	</div>
+</div>
+
+
 
 <div id="page" role="main">
 	<article class="main-content">
@@ -44,6 +96,5 @@ get_header(); ?>
 	</article>
 	<?php get_sidebar(); ?>
 
-</div>
 
 <?php get_footer();
