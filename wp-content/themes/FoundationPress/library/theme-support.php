@@ -28,6 +28,7 @@ function foundationpress_theme_support() {
 
 	// Add post thumbnail support: http://codex.wordpress.org/Post_Thumbnails
 	add_theme_support( 'post-thumbnails' );
+	set_post_thumbnail_size( 400, 400 );
 
 	// RSS thingy
 	add_theme_support( 'automatic-feed-links' );
